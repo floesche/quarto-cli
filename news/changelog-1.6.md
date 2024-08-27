@@ -26,6 +26,10 @@ All changes included in 1.6:
   - For default behavior (`latex-auto-install: true`), detection is still happening and missing packages are installed automatically. If it fails, Quarto does not fail anymore as PDF rendering as succeeded already. Only a warning will be thrown to log the installation failure.
   - Log message about hyphenation package missing for `chinese` or `chinese-hans` languages are now ignored.
 
+## Projects
+
+- ([#10268](https://github.com/quarto-dev/quarto-cli/issues/10268)]): `quarto create` supports opening project in Positron, in addition to VS Code and RStudio IDE.
+
 ## Engines
 
 ### `julia`
