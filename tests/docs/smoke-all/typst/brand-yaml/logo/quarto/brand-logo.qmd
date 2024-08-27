@@ -1,0 +1,9 @@
+---
+title: logo background
+format: typst
+logo:
+  location: "bottom-right"
+---
+
+{{< lipsum 4 >}}
+

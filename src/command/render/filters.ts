@@ -36,6 +36,7 @@ import {
   kIPynbTitleBlockTemplate,
   kJatsSubarticleId,
   kKeepHidden,
+  kLogo,
   kMergeIncludes,
   kOutputDivs,
   kOutputLocation,
@@ -895,8 +896,10 @@ async function resolveFilterExtension(
 }
 
 const extractTypstFilterParams = (format: Format) => {
+  console.log("fm", format.metadata);
   return {
     [kTocIndent]: format.metadata[kTocIndent],
+    [kLogo]: format.metadata[kLogo],
     [kCssPropertyProcessing]: format.metadata[kCssPropertyProcessing],
     [kHtmlPreTagProcessing]: format.metadata[kHtmlPreTagProcessing],
   };
