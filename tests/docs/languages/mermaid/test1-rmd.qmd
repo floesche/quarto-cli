@@ -1,6 +1,9 @@
 ---
 title: "Mermaid test"
-format: html
+format: 
+  html: default
+  pdf: default
+  docx: default
 ---
 
 ### Force knitr engine
